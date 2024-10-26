@@ -130,12 +130,20 @@ body{
 .halaman4 p{margin-left: 8%; font-size: 1.2rem;}
 
 @media (max-width:720px){
+    .text-atas h1{
+        font-size: 1.5rem;
+        height: 2rem;
+    }
     .gambar img{
         width: 10rem;
     }
     .gambar .datadiri{
         width: 54%;
         height: 30%;
+        font-size: 1rem;
+    }
+    .gambar .datadiri p{
+        font-size: 1rem;
     }
     .gambar .umur{
         margin-left: 3%;
