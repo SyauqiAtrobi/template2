@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(67, 67, 67);
+}
+
+.text-atas{
+    text-align: center;
+    color: white;
+    justify-items: center;
+}
+.text-atas h1{
+    width: 90%;
+    border-radius: 5px;
+    height: 4rem;
+    background-color:rgb(0, 0, 0);
+    padding-top: 2%;
+    border: 1px solid whitesmoke;
+}
+.gambar{
+    margin:5%;
+    display: flexbox;
+}
+.gambar img{
+    border: 1px solid;
+    width: 39%;
+    height: 100vh;
+    float: inline-start;
+    background-color: white;
+}
+.gambar .datadiri{
+    height: 15rem;
+    width: 60%;
+    color: white;
+    float: inline-start;
+
+}
+.gambar .datadiri h1{
+    padding-left: 5%;
+    
+}
+.gambar .datadiri p{
+    font-size: 30px;
+    padding-left: 7%;
+}
+.datadiri, .sosmed, .umur, .halaman2, .halaman3, .halaman4{
+    background-color: rgb(47, 47, 47);    
+}
+.gambar .sosmed{
+    float: inline-start;
+    border: 1px solid;
+    margin-top: 4%;
+    height: 23.8rem;
+    width: 30%;
+    color: white;
+}
+.gambar .sosmed h1{
+    margin-left: 5%;
+}
+.gambar .sosmed li{
+    font-size: 24px;
+    text-decoration: none;
+}
+.gambar .umur{
+    float: inline-start;
+    border: 1px solid;
+    margin-top: 4%;
+    height: 23.8rem;
+    width: 30%;
+    color: white;
+}
+.gambar .umur h1{margin-left: 5%;}
+.gambar .umur p{margin-left:8%; font-size: x-large;}
+
+.halaman1{
+    color: white;
+    width: 60%;
+    float:inline-end;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+.halaman1 h1{
+    font-size: 2rem;
+}
+.halaman1 p{
+    font-size: 18px;
+}
+
+.halaman2{
+    float: left;
+    color: white;   
+    width: 30%;
+    height: 30rem;
+    margin:5%;
+}
+.halaman2 h1{
+    margin-left: 10%; 
+}
+.halaman2 li{font-size: 2rem;}
+
+.halaman3{
+    float: left;
+    color: white;
+    width: 55%;
+    height: 30rem;
+    margin-top: 5%;
+}
+
+.halaman4{
+    float: left;
+    color: white; 
+    width: 90%;
+    height: 15rem;
+    margin-left:5%;
+    margin-right: 5%;
+}
+.halaman4 h1{margin-left: 5%;}
+.halaman4 p{margin-left: 8%; font-size: 1.2rem;}
