@@ -165,3 +165,19 @@ body{
     .halaman2 li {font-size: 1.5rem;}
     .halaman3{width: 12rem;}
 }
+
+@media (max-width:480px){
+    .gambar .datadiri{
+        width: 10rem;
+        font-size: 0.8rem;
+        height: 10rem;
+    }
+    .gambar .datadiri p{font-size: 0.8rem;}
+    .gambar .sosmed{font-size: 0.8rem; width: 8rem; height: 10rem;}
+    .gambar .sosmed li{font-size:1rem;}
+    .gambar .umur{font-size: 0.8rem; height: 10rem;}
+    .gambar .umur p{font-size: 1rem;}
+
+    .halaman2{font-size: 0.8rem; width: 8rem;}
+    .halaman2 li{font-size: 1rem;}
+}
